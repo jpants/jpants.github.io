@@ -4,6 +4,11 @@ html, body, #wrapper {
 	-webkit-font-smoothing: antialiased;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 body {
 	font-family: 'Rock Salt', cursive;
 }
@@ -48,11 +53,28 @@ header {
 }
 
 #sitesButton {
+	font-size: 1.5em;
+	color: white;
+	position: relative;
+    text-shadow: 2px 2px 10px rgba(0,0,0,.6);
+    text-align: center;
+    top: 43%;
+}
+
+#kelsButton {
 	color: white;
 	position: relative;
     text-shadow: 2px 2px 10px rgba(0,0,0,.6);
     text-align: center;
     top: 50%;
+}
+
+#timansonButton {
+	color: white;
+	position: relative;
+    text-shadow: 2px 2px 10px rgba(0,0,0,.6);
+    text-align: center;
+    top: 53%;
 }
 
 
