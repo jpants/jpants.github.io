@@ -45,6 +45,9 @@ body {
 #homeImage {
 	position: relative;
 	background-image: url("../images/KelsHomeImage-6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	min-height: 100%;
 }
 
