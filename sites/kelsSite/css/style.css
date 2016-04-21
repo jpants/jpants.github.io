@@ -45,9 +45,7 @@ body {
 #homeImage {
 	position: relative;
 	background-image: url("../images/KelsHomeImage-6.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+d
 	min-height: 100%;
 }
 
@@ -372,7 +370,7 @@ a {
 
 #block1 {
 	background-color: white;
-	background-image: url('../images/stickGirl.jpg');
+	background-image: url('../images/stickGirl.png');
 	background-size: 28% 50%;
 	background-repeat: no-repeat;
 	background-position: 97% 85%;
@@ -389,7 +387,7 @@ a {
 
 #block2 {
 	background-color: white;
-	background-image: url('../images/pianoStrings.jpg');
+	background-image: url('../images/pianoStrings.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -405,7 +403,7 @@ a {
 
 #block3 {
 	background-color: white;
-	background-image: url('../images/changeTree.jpg');
+	background-image: url('../images/changeTree.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: right;
