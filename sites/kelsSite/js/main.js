@@ -80,7 +80,6 @@ $(function() {
 					$('#blockContainer').css('transform', 'translateY(-50%)');
 				}
 				else {
-					console.log('what');
 			    $('#mainHome').css('height', 'initial');
 			    $('#bgImage2').css('height', mainHomeHeight);
 			    $('#linkBoxImage').css('height', linkBoxHeight);
