@@ -5,7 +5,7 @@ $(function() {
 	});
 
 	$(window).resize(function(){
-		if ($(window).width()<769) {
+		if ($(window).width()<769 && $('#nav').style.display == 'table-cell') {
 			$('#nav').css({display: 'none'});
 		}
 		else  {
