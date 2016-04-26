@@ -94,7 +94,7 @@ body {
 	height: 30px;
 }
 
-@media (min-width: 630px) {
+@media (min-width: 769px) {
 	#socialPosts {
 		bottom: initial;
 		width: 50px;
@@ -154,10 +154,22 @@ body {
 
 #bigName {
 	font-family: 'Ubuntu Condensed', sans-serif;
+	/*font-family: 'Seaweed Script', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Bad Script', cursive;*/
 	display: table-cell;
 	font-size: 72px;
 	letter-spacing: -3px;
-	width: 40%;
+	width: 85%;
+	text-shadow: 0px 0px 8px rgba(0,0,0,.2);
+/*	font-weight: 200;
+*/
+}
+
+@media (min-width: 769px) {
+	#bigName {
+		width: 47%;
+	}
 }
 
 @media (min-width: 679px) {
@@ -205,7 +217,7 @@ body {
 	cursor: pointer;
 }
 
-@media (max-width: 659px) {
+@media (max-width: 768px) {
 	#nav {
 		display: none;
 		position: absolute;
@@ -237,7 +249,7 @@ a {
 	text-decoration: none;
 }
 
-@media (min-width: 660px) {
+@media (min-width: 769px) {
 	#menuButton {
 		display: none;
 	}
@@ -257,7 +269,7 @@ a {
 	#menuList li {
 		font-family: 'Ubuntu', sans-serif;
 		display: inline-block;
-		margin: 7px 0px 7px 35px;
+		margin: 7px 17.5px 7px;
 		color: white;
 		letter-spacing: 2px;
 		font-size: 15px;
@@ -545,6 +557,7 @@ Songs
 .song audio {
 	margin: 30px 0px;
 	width: 100%;
+	max-width: 350px;
 }
 
 /*****************
@@ -607,13 +620,15 @@ Contact
 	text-align: center;
 	margin: 20px auto;
 	width: 100%;
+	max-width: 621px;
 }
 
 #fNameContact {
 	font-family: "Dosis", sans-serif;
 	line-height: 35px;
 	font-size: 18px;
-	width: 100%;
+	width: 97%;
+	margin-right: 3%;
 	padding-left: 15px;
 	box-sizing: border-box;
 }
@@ -622,7 +637,8 @@ Contact
 	font-family: "Dosis", sans-serif;
 	line-height: 35px; 
 	font-size: 18px; 
-	width: 100%;
+	width: 97%;
+	margin-left: 3%;
 	padding-left: 15px;
 	box-sizing: border-box;
 }
@@ -672,7 +688,7 @@ footer {
 }
 
 #footerStuff {
-	padding: 50px 50px 0px;
+	padding: 50px 40px 0px;
 	text-align: center;
 }
 

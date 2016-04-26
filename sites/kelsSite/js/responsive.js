@@ -5,7 +5,7 @@ $(function() {
 	});
 
 	$(window).resize(function(){
-		if ($(window).width()<643) {
+		if ($(window).width()<769) {
 			$('#nav').css({display: 'none'});
 		}
 		else  {
