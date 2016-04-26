@@ -1,6 +1,7 @@
 html, body, #container {
 	min-height: 100%;
 	min-width: 320px;
+	width: 100%;
 }
 
 body {
@@ -338,7 +339,7 @@ a {
 	display: inline-block;
 	width: 100%;
 	max-width: 325px;
-	margin: 4%;
+	margin: 4% 0px;
 	color: black;
 	text-align: initial;
 }
@@ -525,14 +526,15 @@ Songs
 	background-color: rgb(224,224,224);
 	color: black;
 	position: relative;
-	padding: 50px 80px;
+	padding: 40px 10%;
 	z-index: 0;
+	width: 80%;
 }
 
 .song h1 {
 	display: block;
 	font-size: 2em;
-	margin: 30px 20px 10px;
+	margin: 30px 0px 10px;
 }
 
 .song p {
@@ -541,7 +543,8 @@ Songs
 }
 
 .song audio {
-	margin: 30px 60px;
+	margin: 30px 0px;
+	width: 100%;
 }
 
 /*****************
@@ -552,7 +555,7 @@ Bio
 	background-color: rgb(224,224,224);
 	color: black;
 	position: relative;
-	padding: 50px 80px;
+	padding: 40px;
 	z-index: 0;
 }
 
@@ -563,8 +566,8 @@ Bio
 #titleBio {
 	width: 30%;
 	vertical-align: top;
-	font-size: 50px;
-	padding: 0px 20px;
+	font-size: 40px;
+	padding: 0px 20px 0px 0px;
 	text-align: right;
 }
 
@@ -580,7 +583,7 @@ Contact
 #mainContact {
 	background-color: rgb(224,224,224);
 	color: black;
-	padding: 50px 80px;
+	padding: 40px;
 	z-index: 0;
 }
 
@@ -595,7 +598,7 @@ Contact
 	display: block;
 	margin: 0px auto;
 	text-align: center;
-	width: 75%;
+	width: 100%;
 	line-height: 1.5em;
 }
 
@@ -603,7 +606,7 @@ Contact
 	font-family: "Dosis", sans-serif;
 	text-align: center;
 	margin: 20px auto;
-	width: 75%;
+	width: 100%;
 }
 
 #fNameContact {
