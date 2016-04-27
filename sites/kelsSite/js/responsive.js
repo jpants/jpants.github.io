@@ -5,7 +5,7 @@ $(function() {
 	});
 
 	$(window).resize(function(){
-		if ($(window).width()<769 && $('#nav').style.display == 'table-cell') {
+		if ($(window).width()<769 && $('#nav').css('display') == 'table-cell') {
 			$('#nav').css({display: 'none'});
 		}
 		else  {
