@@ -34,17 +34,50 @@ header {
     			 2px 2px 17px rgba(0,0,0,.6);
 	line-height: 1.25em;
 	bottom: 15px;
-	margin: 0 25% 0 10%;
+	margin: 0 20% 0 5%;
 	/*left: 40%;
 	transform: translate(-50%, 0);*/
+}
+
+@media (min-width: 375px) {
+	#bigName {
+		margin: 0 20% 0 10%;
+	}
+}
+
+@media (min-width: 425px) {
+	#bigName {
+		font-size: 52px;
+	}
+}
+
+@media (min-width: 768px) {
+	#bigName {
+		font-size: 68px;
+		margin: 0 20% 0 4%;
+	}
+}
+
+@media (min-width: 1024px) {
+	#bigName {
+		font-size: 80px;
+		margin: 0 20% 0 10%;
+	}
 }
 
 #comment {
 	position: absolute;
 	color: white;
     text-shadow: 2px 2px 10px rgba(0,0,0,.6);
-    left: 45%;
+    right: 5%;
     bottom: 0;
+    font-size: 1.2em;
+}
+
+@media (min-width: 429px) {
+	#comment {
+		left: 40%;
+	}
 }
 
 #main {
@@ -53,7 +86,7 @@ header {
 }
 
 #sitesButton {
-	font-size: 1.5em;
+	font-size: 2em;
 	color: white;
 	position: relative;
     text-shadow: 2px 2px 10px rgba(0,0,0,.6);
@@ -67,6 +100,11 @@ header {
     text-shadow: 2px 2px 10px rgba(0,0,0,.6);
     text-align: center;
     top: 50%;
+    font-size: 1.25em;
+}
+
+#kelsButton span:hover {
+	font-weight: bold;
 }
 
 #timansonButton {
@@ -75,6 +113,11 @@ header {
     text-shadow: 2px 2px 10px rgba(0,0,0,.6);
     text-align: center;
     top: 53%;
+    font-size: 1.25em;
+}
+
+#timansonButton span:hover {
+	font-weight: bold;
 }
 
 
