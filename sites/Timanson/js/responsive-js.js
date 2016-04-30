@@ -5,7 +5,7 @@ $(function() {
 	});
 
 	$(window).resize(function(){
-		if ($(window).width()>950) {
+		if ($(window).width()>890) {
 			$('#navWrap').css({display: 'inline-block'});
 		}
 		else {

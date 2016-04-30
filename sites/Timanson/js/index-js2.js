@@ -2,7 +2,7 @@ $(function(){
 
 	$('.slider').each(function(){ // slide show function
 		var $this=$(this);
-		var $group=$this.find('.slide-group');
+		var $group=$this.find('.slideGroup');
 		var $slides=$this.find('.slide');
 		var currentIndex=0;
 		var status='running';
@@ -103,11 +103,11 @@ $(function(){
 	});
 
 	indexLoad=setTimeout(function(){
-		$('#mainIndex').fadeIn(2000);
+		$('#mainIndex').css({opacity: 1});
 	}, 2000);
 
 	indexLoad2=setTimeout(function(){
-		$('#estimatebutton').fadeIn(2000);
+		$('#estimateButton').css({opacity: 1});
 	}, 5000);
 
 });
