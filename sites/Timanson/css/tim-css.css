@@ -529,6 +529,8 @@ Services TABS
 }
 
 .tab-list li {
+	position: relative;
+	z-index: 90;
   display: inline-block;
   list-style-type: none;
   /*margin-bottom: 1px;*/
@@ -578,6 +580,8 @@ Services PANELS
 ******************/
 
 .tab-panel {
+	position: relative;
+	z-index: 100;
   display: none;
   background-color: #e5e5e5;
   color: #666;
